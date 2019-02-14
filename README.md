@@ -45,12 +45,13 @@ To run the application follow this steps:
 1. Clone the repository. Paste this command to terminal to clone: git clone https://github.com/mark-renz/hyperledger-invoice
 2. Go to the repository and go to the invoice folder
 3. In the invoice folder open a terminal then input the following commands:
+  ```
   ./startFabric.sh
   npm install
   node enrollAdmin.js
   node registerUser.js
   node app.js
-  
+  ```
 Once the "Example app listening on port 3000!" appears you can open a browser and go to localhost:3000 to test the application
 
 ##### contents:
