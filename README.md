@@ -1,4 +1,4 @@
-#hyperledger-invoice
+# hyperledger-invoice
 
 This is a hyperledger project using the fabric-samples template.
 The project is a simple supply chain management DAPP in hyperledger.
@@ -28,17 +28,17 @@ h) Display all invoices
   
   
   
-Pre-requisites:
+##### Pre-requisites:
 
-Operating System: Ubuntu 18.04 64-bit
-Hardware: atleast 4gb ram
-Docker engine: 17.03 or higher
-Docker-Compose: 1.8 or higher
-Node: 8.9 or higher
-npm: v5.x
-git: 2.9.x or higher
-python: 2.7.x
-fabric-samples repository: 1.4 
+##### Operating System: Ubuntu 18.04 64-bit
+##### Hardware: atleast 4gb ram
+##### Docker engine: 17.03 or higher
+##### Docker-Compose: 1.8 or higher
+##### Node: 8.9 or higher
+##### npm: v5.x
+##### git: 2.9.x or higher
+##### python: 2.7.x
+##### fabric-samples repository: 1.4 
   command to clone fabric-samples: git clone https://github.com/hyperledger/fabric-samples
 
 To run the application follow this steps:
@@ -53,37 +53,34 @@ To run the application follow this steps:
   
 Once the "Example app listening on port 3000!" appears you can open a browser and go to localhost:3000 to test the application
 
-contents:
+##### contents:
 
-chaincode/go/invoice.go
-  
+##### chaincode/go/invoice.go
   contains the smart contract and all the functions to run the app
 
-invoice/startFabric.sh
-  
+##### invoice/startFabric.sh
   contains PATHS and commands to initiate the network
 
-invoice/enrollAdmin.js
-  
-  contains the commands to create the certificates for admin
+##### invoice/enrollAdmin.js
+   contains the commands to create the certificates for admin
    
-   *admin is needed to generate different users
+   *admin is needed to generate different users*
 
-invoice/registerUser.js
-  
+##### invoice/registerUser.js
   contains the commands to generate users and their respective certificate
    
-   *this file generates 4 users user1,oem,supplier and bank
+   *this file generates 4 users user1,oem,supplier and bank*
    
-invoice/app.js
+##### invoice/app.js
+  
   contains the paths to access/routing of the functions in the app using the browser (localhost:3000)
   
-  -localhost:3000/raiseInvoice
+  **localhost:3000/raiseInvoice**
   
-  -localhost:3000/invoice
+  **localhost:3000/invoice**
   
-  -localhost:3000/invoices
+  **localhost:3000/invoices**
   
-  -localhost:3000/block
+  **localhost:3000/block**
   
   
