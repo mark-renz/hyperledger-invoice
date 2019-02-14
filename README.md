@@ -3,6 +3,7 @@
 This is a hyperledger project using the fabric-samples template.
 The project is a simple supply chain management DAPP in hyperledger.
 The application is consist of the following functions:
+
 a) Raise Invoice (only supplier can create invoice)
 b) Goods Received (only OEM can register GR)
 c) Bank Payment to supplier (only bank can pay to supplier)
