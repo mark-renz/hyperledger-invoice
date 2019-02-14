@@ -70,9 +70,13 @@ invoice/registerUser.js
    
 invoice/app.js
   contains the paths to access/routing of the functions in the app using the browser (localhost:3000)
+  
   -localhost:3000/raiseInvoice
+  
   -localhost:3000/invoice
+  
   -localhost:3000/invoices
+  
   -localhost:3000/block
   
   
