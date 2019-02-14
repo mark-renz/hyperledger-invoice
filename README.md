@@ -21,8 +21,10 @@ g) Display invoice per OEM
 h) Display all invoices
 
   Additional validation at chaincode
-  a) Paid Amount to be always less than invoice amount.
-  b) Repayment amount to be always greater than payment amount.
+  
+  a) Paid Amount to be always less than invoice amount
+  
+  b) Repayment amount to be always greater than payment amount
   
 To run the application follow this steps:
 1. Clone the repository. Paste this command to terminal to clone: git clone https://github.com/mark-renz/hyperledger-invoice
