@@ -54,18 +54,25 @@ To run the application follow this steps:
 Once the "Example app listening on port 3000!" appears you can open a browser and go to localhost:3000 to test the application
 
 contents:
+
 chaincode/go/invoice.go
+  
   contains the smart contract and all the functions to run the app
 
 invoice/startFabric.sh
+  
   contains PATHS and commands to initiate the network
 
 invoice/enrollAdmin.js
+  
   contains the commands to create the certificates for admin
+   
    *admin is needed to generate different users
 
 invoice/registerUser.js
+  
   contains the commands to generate users and their respective certificate
+   
    *this file generates 4 users user1,oem,supplier and bank
    
 invoice/app.js
